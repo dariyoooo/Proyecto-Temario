@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BMW Experience</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header class="header">
+    <h1 class="logo">Visionary Systems</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#innovation">Innovación</a>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <video autoplay muted loop class="hero-video">
+        <source src="img/bmw.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h2>Innovacion en tecnologia, 
+     <br> seguridad y diseño.</h2>
+        <p>Ingeniería que se siente.</p>
+    </div>
+</section>
+
+<section id="modelos" class="models">
+    <h2 class="section-title">Modelos</h2>
+
+    <div class="carousel">
+        <button class="arrow left">&#10094;</button>
+
+        <div class="cards-wrapper">
+
+            <div class="card active" data-color="rgba(0,120,255,0.10)">
+                <img src="img/car1.png">
+                <div class="info">
+                    <h3>BMW M4</h3>
+                    <span>Performance</span>
+                    <p class="desc">Potencia y control total.</p>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="num" data-target="3.8">0</span>s
+                            <span class="label">0-100 km/h</span>
+                        </div>
+
+                        <div class="gauge" data-speed="3.8">
+                            <div class="needle"></div>
+                            <svg viewBox="0 0 100 50">
+                                <path class="bg" d="M5,50 A45,45 0 0,1 95,50"/>
+                                <path class="progress" d="M5,50 A45,45 0 0,1 95,50"/>
+                            </svg>
+                        </div>
+
+                        <div class="stat-item">
+                            <span class="num" data-target="503">0</span> HP
+                            <span class="label">Potencia</span>
+                        </div>
+                    </div>
+                    <button class="btn-more">Explorar Ingeniería</button>
+                </div>
+            </div>
+
+            <div class="card" data-color="rgba(255,0,60,0.08)">
+                <img src="img/car2.png">
+                <div class="info">
+                    <h3>BMW i8</h3>
+                    <span>Electric</span>
+                    <p class="desc">Tecnología híbrida avanzada.</p>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="num" data-target="4.2">0</span>s
+                            <span class="label">0-100 km/h</span>
+                        </div>
+
+                        <div class="gauge" data-speed="4.2">
+                            <div class="needle"></div>
+                            <svg viewBox="0 0 100 50">
+                                <path class="bg" d="M5,50 A45,45 0 0,1 95,50"/>
+                                <path class="progress" d="M5,50 A45,45 0 0,1 95,50"/>
+                            </svg>
+                        </div>
+
+                        <div class="stat-item">
+                            <span class="num" data-target="369">0</span> HP
+                            <span class="label">Híbrido</span>
+                        </div>
+                    </div>
+                    <button class="btn-more">Explorar Ingeniería</button>
+                </div>
+            </div>
+
+            <div class="card" data-color="rgba(255,255,255,0.05)">
+                <img src="img/car3.png">
+                <div class="info">
+                    <h3>BMW X6</h3>
+                    <span>Luxury SUV</span>
+                    <p class="desc">Confort y potencia combinados.</p>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="num" data-target="5.3">0</span>s
+                            <span class="label">0-100 km/h</span>
+                        </div>
+
+                        <div class="gauge" data-speed="5.3">
+                            <div class="needle"></div>
+                            <svg viewBox="0 0 100 50">
+                                <path class="bg" d="M5,50 A45,45 0 0,1 95,50"/>
+                                <path class="progress" d="M5,50 A45,45 0 0,1 95,50"/>
+                            </svg>
+                        </div>
+
+                        <div class="stat-item">
+                            <span class="num" data-target="335">0</span> HP
+                            <span class="label">Motor V6</span>
+                        </div>
+                    </div>
+                    <button class="btn-more">Explorar Ingeniería</button>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="arrow right">&#10095;</button>
+    </div>
+</section>
+
+<section id="innovation" class="innovation">
+    <h2 class="section-title">Bases de la empresa.</h2>
+    <div class="innovation-grid">
+        <div class="feature">
+            <h3>Valores de la empresa.</h3>
+            <p>Los valores empresariales son los principios éticos y creencias fundamentales que guían el comportamiento, la cultura y la toma de decisiones de una organización.
+                Actúan como una brújula para empleados y directivos, definiendo la identidad de la empresa y asegurando la alineacíon  con su misión y visión.
+            </p>
+        </div>
+        <div class="feature">
+            <h3>Publico Objetivo.</h3>
+            <p>La empresa está dirigida a un público que valora la calidad, el prestigio y la innovación en el ámbito automotriz.
+                En particular, se enfoca en personas con un nivel socioeconómico medio-alto y alto, capaces de acceder a vehículos de gama premium como los de la marca BMW.
+            </p>
+        </div>
+        <div class="feature">
+            <h3>Productos Y Servicios.</h3>
+            <p>Implementacion de sistemas electrónicos inteligentes en vehículos de BMW, enfocados en optimizar el rendimiento, la conectividad y la expericiencia del usuario.</p>
+        </div>
+    </div>
+</section>
+<div id="engineering-panel" class="eng-panel">
+    <div class="eng-content">
+        <button class="close-eng">&times;</button>
+        <div class="eng-header">
+            <h2 id="eng-title">Ingeniería BMW</h2>
+            <span id="eng-subtitle">Performance & Tech</span>
+        </div>
+        <div class="eng-body">
+            <div class="eng-grid">
+                <div class="eng-item">
+                    <h4>Motorización</h4>
+                    <p id="eng-motor">Configuración de alto rendimiento.</p>
+                </div>
+                <div class="eng-item">
+                    <h4>Velocidad Máxima</h4>
+                    <p id="eng-speed">Limitada electrónicamente.</p>
+                </div>
+                <div class="eng-item">
+                    <h4>Chasis</h4>
+                    <p id="eng-chassis">Construcción ligera de aluminio y carbono.</p>
+                </div>
+            </div>
+            <div class="eng-details">
+                <h4>Innovación Destacada</h4>
+                <p id="eng-desc">Detalles técnicos del sistema de propulsión y aerodinámica activa.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="specs-section">
+    <div class="specs-container">
+        <div class="specs-visual">
+            <div class="glare-effect"></div>
+        
+            <div class="specs-visual">
+    <div class="glare-effect"></div>
+    <!-- Le agregamos un ID a la imagen para poder cambiarla con JavaScript -->
+    <img id="concept-car-img" src="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=800" alt="Ingeniería">
+    
+    <!-- Contenedor de los selectores de color -->
+    <div class="color-picker-container">
+        <span class="color-label">Personalizar Concepto:</span>
+        <div class="color-swatches">
+            <button class="swatch active" style="background-color: #ffffff;" onclick="changeVehicleColor('white', this)"></button>
+            <button class="swatch" style="background-color: #0a84ff;" onclick="changeVehicleColor('blue', this)"></button>
+            <button class="swatch" style="background-color: #111111;" onclick="changeVehicleColor('black', this)"></button>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="specs-content">
+            <span class="specs-subtitle">Ingeniería Avanzada</span>
+            <h2 class="specs-title">Especificaciones de Rendimiento</h2>
+            
+            <div class="specs-tabs">
+                <button class="tab-btn active" onclick="switchSpec('propulsion')">Propulsión</button>
+                <button class="tab-btn" onclick="switchSpec('autonomia')">Autonomía</button>
+                <button class="tab-btn" onclick="switchSpec('dinamica')">Dinámica</button>
+            </div>
+
+            <div id="spec-info" class="spec-panel active">
+                <div class="spec-grid-details">
+                    <div class="detail-item">
+                        <h4>Configuración</h4>
+                        <p>Motor Dual Eléctrico (AWD)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Potencia Máxima</h4>
+                        <p>750 kW (1020 CV)</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Aceleración</h4>
+                        <p>0-100 km/h en 2.1s</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Velocidad Máxima</h4>
+                        <p>322 km/h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="instagram-connect" class="instagram-section">
+    <div class="instagram-container">
+        <div class="instagram-qr">
+            <img src="img/insta.jpeg" alt="QR Instagram Visionary Systems">
+        </div>
+        <div class="instagram-text">
+            <span>Síguenos en Redes</span>
+            <h2>Conecta con nosotros</h2>
+            <p>Escanea el código QR para descubrir contenido exclusivo, detrás de cámaras de nuestros sistemas tecnológicos y las últimas novedades de la ingeniería automotriz directamente en nuestro Instagram.</p>
+        </div>
+    </div>
+</section>
+<!-- NUEVA SECCIÓN: AGENDAR CITA -->
+<section id="citas" class="booking-section">
+    <div class="booking-container">
+        <!-- Lado Izquierdo: Texto -->
+        <div class="booking-text">
+            <span>Experiencia Exclusiva</span>
+            <h2>Agenda tu prueba de manejo</h2>
+            <p>Siente la potencia del motor M TwinPower Turbo o experimenta el futuro de la movilidad híbrida en persona. Selecciona una fecha y nuestro equipo de asesores se pondrá en contacto contigo para confirmar tu cita en el showroom.</p>
+        </div>
+
+        <!-- Lado Derecho: Formulario -->
+        <div class="booking-form-wrapper">
+            <form class="booking-form" onsubmit="event.preventDefault(); alert('Cita enviada con éxito. Nos comunicaremos pronto.');">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" placeholder="Ej. Juan Pérez" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="modelo-interes">Modelo de Interés</label>
+                        <select id="modelo-interes" required>
+                            <option value="" disabled selected>Selecciona un auto</option>
+                            <option value="m4">BMW M4 Competition</option>
+                            <option value="i8">BMW i8 Coupé</option>
+                            <option value="x6">BMW X6 Luxury SUV</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fecha">Fecha Deseada</label>
+                        <input type="date" id="fecha" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit">Reservar Espacio</button>
+            </form>
+        </div>
+    </div>
+    <section class="gallery-section">
+    <div class="gallery-header">
+        <span class="gallery-subtitle">Diseño Estructural</span>
+        <h2 class="gallery-title">Cada Detalle, Reimaginado</h2>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery-item item-large">
+            <img src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=800" alt="Detalle 1">
+            <div class="item-overlay"><h4>Cabina Digital</h4></div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=600" alt="Detalle 2">
+            <div class="item-overlay"><h4>Óptica Láser</h4></div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=600" alt="Detalle 3">
+            <div class="item-overlay"><h4>Materiales Sostenibles</h4></div>
+        </div>
+        <div class="gallery-item item-long">
+            <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=800" alt="Detalle 4">
+            <div class="item-overlay"><h4>Rines de Aleación Ligera</h4></div>
+        </div>
+    </div>
+</section>
+</section>
+<footer class="main-footer">
+    <div class="footer-links">
+        <a href="#">Privacidad y Legal</a>
+        <a href="#">Contacto</a>
+        <a href="#">Soporte</a>
+        <a href="#">Ubicaciones</a>
+    </div>
+    <p class="footer-copy">© 2026 Innovación Automotriz. Todos los derechos reservados.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
